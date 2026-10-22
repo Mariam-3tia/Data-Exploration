@@ -1,0 +1,14 @@
+document_type,train,validation,test
+account_statement,522,99,107
+credit_note,35107,6337,6303
+employment_certificate,202,43,45
+goods_received_note,2667,512,510
+inventory_report,35,6,10
+invoice,35342,6446,6370
+packing_slip,35040,6456,6244
+payslip,231,30,29
+purchase_order,36908,6598,6807
+quote,35004,6313,6429
+receipt,12105,2218,2133
+shipping_order,35182,6274,6291
+work_order,31152,5782,5691

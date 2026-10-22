@@ -1,0 +1,16 @@
+pair,split,key_matches,parties_agree,parties_and_items_agree,party_agree_rate
+invoice -> shipping_order,train,18166,1150,1032,0.063
+invoice -> shipping_order,validation,559,182,165,0.326
+invoice -> shipping_order,test,587,201,187,0.342
+invoice -> packing_slip,train,12635,1117,747,0.088
+invoice -> packing_slip,validation,437,228,133,0.522
+invoice -> packing_slip,test,399,184,118,0.461
+packing_slip -> shipping_order,train,18086,1116,1004,0.062
+packing_slip -> shipping_order,validation,611,210,191,0.344
+packing_slip -> shipping_order,test,604,211,179,0.349
+goods_received_note -> purchase_order,train,476,151,142,0.317
+goods_received_note -> purchase_order,validation,38,38,36,1.0
+goods_received_note -> purchase_order,test,38,38,34,1.0
+credit_note -> invoice,train,4623,2346,777,0.507
+credit_note -> invoice,validation,417,417,145,1.0
+credit_note -> invoice,test,418,418,132,1.0
